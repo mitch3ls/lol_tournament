@@ -1,0 +1,21 @@
+header {
+    background: #222;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    background: #222;
+}
+
+h1 {
+    background: #222;
+    color: #eee;
+    padding: 0 0 10px;
+}

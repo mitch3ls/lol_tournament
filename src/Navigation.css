@@ -1,0 +1,27 @@
+
+nav {
+    width: 100%;
+    font-size: 18pt;
+}
+
+ul {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #333;
+}
+
+a, a:link, a:visited, a:focus {
+    color: white;
+    background: #333;
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    transition: .3s;
+    color: #099;
+}
