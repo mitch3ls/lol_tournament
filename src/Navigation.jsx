@@ -7,7 +7,7 @@ class Navigation extends Component {
   render() {
     return (
         <nav>
-            <ul>
+            <ul className="Navigation">
                 <li><Link to="/"> Tournament </Link></li>
                 <li><Link to="/teams"> Teams </Link></li>
             </ul>

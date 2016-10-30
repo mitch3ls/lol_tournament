@@ -1,0 +1,27 @@
+
+.ListWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    padding: 2px;
+    border: 1px solid #333;
+    margin: 5px
+}
+
+.Team {
+    color: white;
+    background-color: #222;
+    font-size: 18pt;
+    width: 600px;
+    padding: 12px;
+    margin: 3px;
+}
+

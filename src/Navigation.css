@@ -4,7 +4,7 @@ nav {
     font-size: 18pt;
 }
 
-ul {
+.Navigation {
     width: 100%;
     padding: 10px 0;
     display: inline-flex;

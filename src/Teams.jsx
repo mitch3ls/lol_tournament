@@ -11,7 +11,7 @@ class Teams extends Component {
     super()
 
     this.state = {
-      teams: 'Loading...'
+      teams: ["Team1", "Team2", "Team3"]
     }
   }
 
@@ -26,8 +26,12 @@ class Teams extends Component {
 
   render() {
     return (
-        <div>
-          {this.state.teams}
+        <div className="ListWrapper">
+          <ul className="List">
+            {this.state.teams.map(team =>
+              <li className="Team">{team}</li>
+            )}
+          </ul>
         </div>
     );
   }
