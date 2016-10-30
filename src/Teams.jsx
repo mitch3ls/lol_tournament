@@ -28,8 +28,16 @@ class Teams extends Component {
     return (
         <div className="ListWrapper">
           <ul className="List">
-            {this.state.teams.map(team =>
-              <li className="Team">{team}</li>
+            {this.state.teams
+                .map(team =>
+                <li className="Team" style={{order: team.score}}>
+                  <div className="Name">
+                    {team.name}
+                  </div>
+                  <div className="Score">
+                    {team.score}
+                  </div>
+                </li>
             )}
           </ul>
         </div>

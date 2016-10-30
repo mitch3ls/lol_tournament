@@ -8,7 +8,7 @@
 
 .List {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
     list-style: none;
     padding: 2px;
@@ -20,8 +20,21 @@
     color: white;
     background-color: #222;
     font-size: 18pt;
-    width: 600px;
     padding: 12px;
     margin: 3px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
+
+.Name {
+    flex-grow: 1;
+}
+
+.Score {
+    flex-grow: 0;
+}
+
+
 
