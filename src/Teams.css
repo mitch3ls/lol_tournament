@@ -22,18 +22,18 @@
     font-size: 18pt;
     padding: 12px;
     margin: 3px;
-    width: 600px;
+    height: 51.6px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
 .Name {
-    flex-grow: 1;
+    flex: 550px 2 2;
 }
 
 .Score {
-    flex-grow: 0;
+    flex: 50px 0 1;
 }
 
 
