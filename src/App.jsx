@@ -8,7 +8,7 @@ import Navigation from './Navigation'
 class App extends Component {
   render() {
     return (
-      <div id="App">
+      <div className="App">
         <Header/>
 
         <Navigation/>

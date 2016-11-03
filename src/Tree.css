@@ -1,4 +1,46 @@
-line {
+
+.Tree {
+    width: 100%;
+}
+
+
+.TreeNode {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.TreeNode-VerticalLine {
     stroke: #222;
     stroke-width: 20;
+}
+
+.TreeNode-HorizontalLine {
+    stroke: #222;
+    stroke-width: 40;
+}
+
+.TreeNode-SubTrees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.TeamNode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TeamNode-Name {
+    display: inline-block;
+    color: white;
+    background-color: #222;
+    font-size: 18pt;
+    padding: 12px;
+    margin: 3px;
+    height: 51.6px;
 }

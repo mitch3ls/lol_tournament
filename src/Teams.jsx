@@ -11,7 +11,7 @@ class Teams extends Component {
     super()
 
     this.state = {
-      teams: ["Team1", "Team2", "Team3"]
+      teams: [{name:'Loading'}]
     }
   }
 
@@ -26,15 +26,15 @@ class Teams extends Component {
 
   render() {
     return (
-        <div className="ListWrapper">
-          <ul className="List">
+        <div className="Teams">
+          <ul className="Teams-List">
             {this.state.teams
                 .map(team =>
-                <li className="Team" style={{order: team.score}}>
-                  <div className="Name">
+                <li className="Teams-ListItem" style={{order: team.score}}>
+                  <div className="Teams-TeamName">
                     {team.name}
                   </div>
-                  <div className="Score">
+                  <div className="Teams-TeamScore">
                     {team.score}
                   </div>
                 </li>

@@ -6,10 +6,10 @@ import './Navigation.css'
 class Navigation extends Component {
   render() {
     return (
-        <nav>
-            <ul className="Navigation">
-                <li><Link to="/"> Tournament </Link></li>
-                <li><Link to="/teams"> Teams </Link></li>
+        <nav className="Navigation">
+            <ul className="Navigation-List">
+                <li><Link className="Navigation-Link" to="/"> Tournament </Link></li>
+                <li><Link className="Navigation-Link" to="/teams"> Teams </Link></li>
             </ul>
         </nav>
     );

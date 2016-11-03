@@ -7,11 +7,11 @@ import './Header.css'
 class Header extends Component {
   render() {
     return (
-        <header>
-            <img
-                src={banner}
-                alt="banner" width="50%"/>
-            <h1>HTL3R Tournament</h1>
+        <header className="Header">
+            <img className="Header-Banner"
+                 src={banner}
+                 alt="banner" width="50%"/>
+            <h1 className="Header-Title">HTL3R Tournament</h1>
         </header>
     )
   }

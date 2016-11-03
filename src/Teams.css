@@ -1,12 +1,12 @@
 
-.ListWrapper {
+.Teams {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.List {
+.Teams-List {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     margin: 5px
 }
 
-.Team {
+.Teams-ListItem {
     color: white;
     background-color: #222;
     font-size: 18pt;
@@ -28,11 +28,11 @@
     justify-content: flex-start;
 }
 
-.Name {
+.Teams-TeamName {
     flex: 550px 2 2;
 }
 
-.Score {
+.Teams-TeamScore {
     flex: 50px 0 1;
 }
 

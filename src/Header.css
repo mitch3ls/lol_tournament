@@ -1,4 +1,4 @@
-header {
+.Header {
     background: #222;
     width: 100%;
     display: inline-flex;
@@ -7,14 +7,14 @@ header {
     text-align: center;
 }
 
-img {
+.Header-Banner {
     width: 50%;
     display: flex;
     align-self: center;
     background: #222;
 }
 
-h1 {
+.Header-Title {
     background: #222;
     color: #eee;
     padding: 0 0 10px;
