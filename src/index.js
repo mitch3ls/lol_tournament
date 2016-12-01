@@ -2,25 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {Router, Route, browserHistory, IndexRoute} from 'react-router'
 
-
-import * as firebase from 'firebase'
-
-const config = {
-  apiKey: "AIzaSyC2fJ-SzDUrEdBReSTNb2v497IXU1DXibo",
-  authDomain: "lol-website-d3cd6.firebaseapp.com",
-  databaseURL: "https://lol-website-d3cd6.firebaseio.com",
-  storageBucket: "lol-website-d3cd6.appspot.com",
-  messagingSenderId: "139274943607"
-
-}
-firebase.initializeApp(config)
+import App from './components/App'
+import Tree from './components/Tree/Tree.container'
+import Teams from './components/Teams/Teams.container'
 
 
-import App from './App'
-import Tree from './Tree'
-import Teams from './Teams'
-
-import './index.css'
+import '../public/index.css'
 
 
 ReactDOM.render(
